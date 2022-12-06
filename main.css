@@ -1,0 +1,15 @@
+
+
+.container{ display: flex ; 
+  flex-direction: row;
+
+}
+   .text {
+    color: RED;
+}
+.center {
+  margin: auto;
+  width: 100%;
+  border: white;
+  padding: 10px;
+}

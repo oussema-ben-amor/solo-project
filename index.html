@@ -1,0 +1,15 @@
+<html>
+
+<body id="flipper">
+    <p id="text">Background Color: <span id="color"></span> </p>
+    <button id="btn" style="padding: 14px 28px;" onclick="perform()">Click Here !</button>
+    <script>
+        function perform() {
+            const color = '#' + Math.random().toString(16).substring(9);
+            document.getElementById('color').innerHTML = color;
+            document.getElementById('flipper').style.backgroundColor = color;
+        }
+    </script>
+</body>
+
+</html>
